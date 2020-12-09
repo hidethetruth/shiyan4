@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class experiment_5 {
+public class shiyan5 {
     public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         int w;
@@ -31,7 +31,6 @@ public class experiment_5 {
         System.out.println(z + "出现了"+ z + "次");
     }
 }
-
 
 class Student{
     public Student(){
@@ -142,4 +141,3 @@ class Handle{
         return w;
     }
 }
-
