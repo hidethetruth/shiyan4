@@ -101,7 +101,7 @@ class Handle{
         String str1 = "";
         StringBuffer str2 = new StringBuffer(str1);
         try {
-            File file = new File("C:\Users\13320\Desktop\2.txt");
+            File file = new File("C:\Users\13320\Desktop\B.txt");
             FileReader fr = new FileReader(file);
             BufferedReader bReader = new BufferedReader(fr);
             while ((str1 =bReader.readLine()) != null) {
@@ -118,7 +118,7 @@ class Handle{
 
     public static void Write(StringBuffer s){
         try{
-            BufferedWriter bw = new BufferedWriter(new FileWriter("C:\Users\13320\Desktop\1.txt"));
+            BufferedWriter bw = new BufferedWriter(new FileWriter("C:\Users\13320\Desktop\A.txt"));
             bw.write(s.toString());
             bw.close();
         }catch (IOException e){
