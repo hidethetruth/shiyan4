@@ -6,26 +6,26 @@ public class shiyan4 {
         Scanner input = new Scanner(System.in);
         int w;
         StringBuffer str2 = null;
-        Handle xms = new Handle();
-        StringBuffer str1 = xms.Read();
+        Handle hkls = new Handle();
+        StringBuffer str1 = hkls.Read();
         Homework one = new Homework();
         str2 = one.HW(str1);
         Handle.Write(str2);
 
         System.out.println("请输入要查询的字符：");
         String z = input.next();
-        w = xms.getCharMaps(z,str1);
+        w = hkls.getCharMaps(z,str1);
 
         System.out.println("学生信息：");
-        Student xm = new Student();
-        xm.setName("胡凯莉");
-        xm.setAge(20);
-        xm.setNumber(2019310000);
-        xm.setSex("男");
-        System.out.println("学生姓名:" + xm.getName());
-        System.out.println("学生年龄:" + xm.getAge());
-        System.out.println("学生编号:" + xm.getNumber());
-        System.out.println("学生性别:" + xm.getSex());
+        Student hkl = new Student();
+        hkl.setName("胡凯莉");
+        hkl.setAge(20);
+        hkl.setNumber(2019310000);
+        hkl.setSex("男");
+        System.out.println("学生姓名:" + hkl.getName());
+        System.out.println("学生年龄:" + hkl.getAge());
+        System.out.println("学生编号:" + hkl.getNumber());
+        System.out.println("学生性别:" + hkl.getSex());
 
         System.out.println("处理完成");
         System.out.println(z + "出现了"+ z + "次");
